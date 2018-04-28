@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TRTableViewController.h
 //  TestRestore
 //
 //  Created by Scarlett Che on 2018/4/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TRTableViewController : UITableViewController
 
 @end
-

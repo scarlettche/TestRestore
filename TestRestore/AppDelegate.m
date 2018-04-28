@@ -47,5 +47,23 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL) application:(UIApplication *)application shouldSaveApplicationState:(NSCoder *)coder {
+    return YES;
+}
 
+- (BOOL) application:(UIApplication *)application shouldRestoreApplicationState:(NSCoder *)coder {
+    return YES;
+}
+
+- (void) application:(UIApplication *)application willEncodeRestorableStateWithCoder:(NSCoder *)coder {
+    
+}
+- (void) application:(UIApplication *)application didDecodeRestorableStateWithCoder:(NSCoder *)coder {
+    
+}
+
+- (UIViewController *)application:(UIApplication *)application viewControllerWithRestorationIdentifierPath:(NSArray *)identifierComponents coder:(NSCoder *)coder {
+    NSLog(@"");
+    return nil;
+}
 @end

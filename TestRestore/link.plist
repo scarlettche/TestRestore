@@ -1,0 +1,16 @@
+{
+	[
+		{
+			"name":"百度",
+			"url":"https://www.baidu.com"
+		},
+		{
+			"name":"翻译",
+			"url":"https://translate.google.cn"
+		},
+		{
+			"name":"京东",
+			"url":"https://www.jd.com"
+		}
+	]
+}
